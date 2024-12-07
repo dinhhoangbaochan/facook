@@ -1,2 +1,9 @@
 <?php
-// All php functions
+function dd($value)
+{
+    echo "<pre>";
+    var_dump($value);
+    echo "</pre>";
+
+    die();
+}
